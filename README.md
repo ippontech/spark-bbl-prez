@@ -51,8 +51,7 @@ $ ./elastic/print_tweets_dashboard.sh
 ```
 pour utiliser votre navigateur web
 
-Il est nécessaire d'ajouter vos identifiants de connexion obtenu via l'API developper de Twitter dans le fichier
-```spark/src/main/resources/twitter4j.properties```
+Il est nécessaire d'ajouter vos identifiants de connexion obtenu via l'API developper de Twitter dans le fichier ```spark/src/main/resources/twitter4j.properties```
 
 Dans le cas où vous n'avez pas de connexion internet lors de votre démo, ce projet contient une façon de collecter des tweets et de les stocker dans des fichiers pour pouvoir les processer lors de la démo avec Spark Streaming..
 
