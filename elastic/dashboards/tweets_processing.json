@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "Tweets-processing",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Tweets processing",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"language-count-barchart\",\"panelIndex\":1,\"row\":1,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":5,\"id\":\"5-most-languages-used-slice\",\"panelIndex\":2,\"row\":6,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"language-count-table\",\"panelIndex\":3,\"row\":4,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":5,\"id\":\"tweets-per-creation-date-barchart\",\"panelIndex\":4,\"row\":4,\"size_x\":8,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"unique-count-language\",\"panelIndex\":5,\"row\":6,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-4\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "2016-02-01T15:39:59.999Z",
+      "timeFrom": "2016-02-01T15:30:00.000Z",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  }
+]
